@@ -1,0 +1,9 @@
+---
+- name: Playbook - Provision Hak5 CloudC2 Server & Fetch Setup Token
+  hosts: aws_lightsail_hak5_cloudc2
+  remote_user: ubuntu
+  become: yes
+  gather_facts: false
+  roles: 
+    - aws_lightsail
+    - hak5_cloudc2

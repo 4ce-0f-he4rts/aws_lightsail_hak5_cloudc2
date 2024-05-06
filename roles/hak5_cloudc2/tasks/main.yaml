@@ -1,0 +1,6 @@
+---
+- name: Fetch Remote File to Local Directory
+  ansible.builtin.fetch:
+    src: /home/ubuntu/hak5_cloudc2_setup_token.txt
+    dest: ./
+    flat: yes

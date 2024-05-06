@@ -1,0 +1,5 @@
+#! /bin/bash 
+echo 'chmod 600 /home/a/.ssh/aws_lightsail_hak5_cloudc2/*'
+chmod 600 ${var_ssh_directory_path}/*
+ansible-playbook -i inventory.yaml --private-key ${var_private_key_filename} playbook.yaml
+    
