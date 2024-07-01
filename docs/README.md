@@ -2,7 +2,7 @@
 
 1. **Clone the Repository**
 ```
-git clone git@github.com:4ce-0f-he4rts/aws_lightsail_hak5_cloudc2.git
+git clone git@github.com:shad0w-wiz4rd/aws_lightsail_hak5_cloudc2.git
 ```
 2. **Modify Entries in your "1-variables.tf"**
 ```
